@@ -16,7 +16,7 @@ function App() {
     <MapContainer center={[30.06, 31.23]} zoom={10} scrollWheelZoom={true}>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        url="https://{s}.tile.thunderforest.com/transport-dark/{z}/{x}/{y}.png"
       />
 
       {
